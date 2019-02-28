@@ -25,6 +25,7 @@ services:
       - /jarvis/docker/
     ports:
       - 3000:3000
+    privileged: true
     depends_on:
       - db
       - mailcatcher
