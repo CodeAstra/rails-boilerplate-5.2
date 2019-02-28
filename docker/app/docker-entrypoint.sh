@@ -4,6 +4,8 @@
 set -e
 # Exit on fail
 
+rm -f /jarvis/tmp/pids/server.pid
+
 rm -f config/database.yml && cp config/database.sample.yml config/database.yml
 
 bundle check || bundle install --binstubs="$BUNDLE_BIN"
