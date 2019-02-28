@@ -1,5 +1,5 @@
 {
-  "name": "jarvis",
+  "name": "boilerplate",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5"

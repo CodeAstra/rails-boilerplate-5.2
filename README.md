@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This template has the most common starting point for a Ruby on Rails app that take a few hours to setup.
 
-Things you may want to cover:
+This boilerplate app has the following:
+- Docker enabled
+- Bootstrap 4
+- Haml
+- Rspec instead of defailt Minitest
+- A couple of placeholder pages
+- Better Errors gem
+- Pry
+- Rubocop
+- meta_request gem to support Rails Panel browser extension
+- rack-mini-profiler gem
+- annotate gem
 
-* Ruby version
 
-* System dependencies
+Coming up:
+- .env
+- OAuth
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Getting Started:
+- After cloning the repo, replace the term 'Boilerplate' case-sensitively with the name of the app you desire
+- Continue building on top of it

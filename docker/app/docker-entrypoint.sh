@@ -4,7 +4,7 @@
 set -e
 # Exit on fail
 
-rm -f /jarvis/tmp/pids/server.pid
+rm -f /boilerplate/tmp/pids/server.pid
 
 echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
 
