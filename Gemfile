@@ -5,6 +5,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+# dotenv gem need to be listed earlier than the gems that require dotenv
+gem 'dotenv-rails', groups: [:development, :test], require: 'dotenv/rails-now'
+
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
 gem 'coffee-rails', '~> 4.2'
