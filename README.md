@@ -14,10 +14,9 @@ This boilerplate app has the following:
 - meta_request gem to support Rails Panel browser extension
 - rack-mini-profiler gem
 - annotate gem
-
+- .env
 
 Coming up:
-- .env
 - OAuth
 
 Getting Started:
