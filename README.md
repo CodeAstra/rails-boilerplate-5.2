@@ -1,6 +1,6 @@
 # README
 
-This template has the most common starting point for a Ruby on Rails app that take a few hours to setup.
+This template has the most common starting point for a Ruby on Rails 5.2 app that take a few hours to setup.
 
 This boilerplate app has the following:
 - Docker enabled
